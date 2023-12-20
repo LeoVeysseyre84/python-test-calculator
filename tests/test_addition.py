@@ -1,5 +1,5 @@
 # test_addition.py
-from ..src.calculator import add
+from src.calculator import add
 import pytest
 def test_add():
   result = add(3, 4)
